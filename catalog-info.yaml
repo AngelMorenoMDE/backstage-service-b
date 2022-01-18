@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-service-b
+  description: Service B
+spec:
+  type: service
+  lifecycle: experimental
+  owner: arquitectura-empresarial-team
+  system: arquitectura-empresarial
+  comsumesApis:
+    - backstage-avro-a-to-b
