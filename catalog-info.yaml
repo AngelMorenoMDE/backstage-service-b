@@ -8,5 +8,5 @@ spec:
   lifecycle: experimental
   owner: arquitectura-empresarial-team
   system: arquitectura-empresarial
-  comsumesApis:
+  consumesApis:
     - backstage-avro-a-to-b
